@@ -1,7 +1,4 @@
 @media (max-width: 1200px) {
-    .team{
-        padding: 50px 0px 30px;
-    }
     .team__title::after{
         margin: 14px auto 35px;
     }
@@ -12,6 +9,17 @@
     .team__item{
         flex: 0 1 50%;
         padding: 20px 20px;
+    }
+    .services__title::after{
+        margin: 30px auto 35px;
+    }
+    .services__row{
+        justify-content: space-around;
+        margin: 0;
+    }
+    .services__card{
+        flex: 0 1 50%;
+        padding: 20px 40px;
     }
 }
 @media (max-width: 991px) {
@@ -109,6 +117,16 @@
         flex: 0 1 50%;
         padding: 10px 10px;
     }
+    .services{
+        padding: 20px 0px 10px;
+    }
+    .services__text{
+        padding-bottom: 50px;
+    }
+    .services__card{
+        flex: 0 1 50%;
+        padding: 10px 10px;
+    }
 }
 @media (max-width: 480px) {
     .intro__title{
@@ -128,6 +146,25 @@
         padding: 10px 0px 0px;
     }
     .item__title{
+        margin: 0px 0px 15px;
+    }
+    .services__title{
+        font-size: 36px;
+    }
+    .services__title::after{
+        margin: 20px auto 28px;
+    }
+    .services__text{
+        padding-bottom: 30px;
+    }
+    .services__card{
+        flex: 0 1 100%;
+        padding: 10px 20px;
+    }
+    .card__body{
+        padding: 10px 0px 0px;
+    }
+    .card__title{
         margin: 0px 0px 15px;
     }
 }

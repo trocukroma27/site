@@ -25,6 +25,7 @@ html, body{
     flex-direction: column;
 }
 /*стилі оформлення*/
+
 .conteiner{
     max-width: 1200px;
     margin: 0 auto;
@@ -32,6 +33,7 @@ html, body{
     height: 100%;
 }
 /*основні стилі*/
+
 .header{
     position: fixed;
     width: 100%;
@@ -194,7 +196,7 @@ html, body{
 .team{
     width: 100%;
     height:auto;
-    padding: 50px 0px 40px;
+    padding: 50px 0px 30px;
     background-color: #070707;
     color: #fff;
 }
@@ -216,13 +218,12 @@ html, body{
 .team__row{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
     flex-wrap: wrap;
-    margin: 0px -10px;
+    margin: 0px -22px;
 }
 .team__item{
     flex: 0 1 25%;
-    padding: 20px 10px;
+    padding: 20px 22px;
 }
 .item__row{
     display: flex;
@@ -232,7 +233,7 @@ html, body{
 .item__image{
     flex: 0 0 128px;
 }
-.item__image image{
+.item__image img{
     max-width: 100%;
 }
 .item__body{
@@ -244,13 +245,116 @@ html, body{
 }
 .item__title h1{
     font-size: 20px;
+    line-height: 24px;
     font-weight: 700;
 }
 .item__title h2{
     font-size: 16px;
+    line-height: 24px;
     font-weight: 400;
 }
 .item__text{
     font-size: 14px;
+    list-style: 24px;
     font-weight: 400;
+}
+.services{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 30px;
+    color: #222222;
+    background-color: #fff;
+}
+.services__title{
+    font-size: 44px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.services__title::after{
+    content: '';
+    display: block;
+    width: 99px;
+    height: 3px;
+    background-color: #fcac45;
+    margin: 30px auto 55px;
+}
+.services__text{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c6c6c;
+    text-align: center;
+    padding-bottom: 82px;
+}
+.services__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -11px;
+}
+.services__card{
+    flex: 0 1 25%;
+    padding: 20px 22px;
+}
+.card__row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__image{
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #fcac45;
+    border-radius: 50%;
+}
+.card__image img{
+    max-width: 100%;
+}
+.card__body{
+    padding: 28px 0px 0px;
+}
+.card__title{
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+.card__text{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    background-color: #222222;
+    height: 71px;
+}
+.footer__row{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.footer__image{
+    width: 31px;
+    height: 31px;
+    margin: 0px 7px;
+}
+.footer__image img{
+    max-width: 100%;
 }
