@@ -5,8 +5,8 @@ $(document).ready(function(){
     });
 });
 function slowScroll(id){
-    $('.header__burger, .header__menu').toggleClass('active');
-    $('body').toggleClass('lock');
+    $('.header__burger, .header__menu').removeClass('active');
+    $('body').removeClass('lock');
     var offset = 50;
     $('html, body').animate({
         scrollTop: $(id).offset().top - offset
