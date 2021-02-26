@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .team__title::after{
-        margin: 14px auto 35px;
+        margin: 20px auto 35px;
     }
     .team__row{
         justify-content: space-around;
@@ -8,10 +8,10 @@
     }
     .team__item{
         flex: 0 1 50%;
-        padding: 20px 20px;
+        padding: 20px 40px;
     }
     .services__title::after{
-        margin: 30px auto 35px;
+        margin: 20px auto 35px;
     }
     .services__row{
         justify-content: space-around;
@@ -20,6 +20,22 @@
     .services__card{
         flex: 0 1 50%;
         padding: 20px 40px;
+    }
+    .portfolio__title::after{
+        margin: 20px auto 35px;
+    }
+    .portfolio__row{
+        justify-content: space-around;
+        margin: 0;
+    }
+    .portfolio__photo{
+        flex: 0 1 33.3333333%;
+    }
+    .testimonials__title::after{
+        margin: 20px auto 85px;
+    }
+    .testimonials__body{
+        padding-bottom: 50px;
     }
 }
 @media (max-width: 991px) {
@@ -35,6 +51,16 @@
     }
     .about__image{
         flex: 0 0 auto;
+    }
+    .clients__row{
+        flex-wrap: wrap;
+        padding: 0 0 80px;
+    }
+    .clients__brand{
+        flex: 0 0 100%
+    }
+    .portfolio__photo{
+        flex: 0 1 50%;
     }
 }
 @media (max-width:767px){
@@ -127,6 +153,22 @@
         flex: 0 1 50%;
         padding: 10px 10px;
     }
+    .portfolio{
+        padding: 20px 0px 0px;
+    }
+    .portfolio__text{
+        padding-bottom: 50px;
+    }
+    .portfolio__photo{
+        flex: 0 1 50%;
+        padding: 20px;
+    }
+    .testimonials__title::after{
+        margin: 20px auto 45px;
+    }
+    .testimonials__body{
+        padding-bottom: 25px;
+    }
 }
 @media (max-width: 480px) {
     .intro__title{
@@ -166,5 +208,32 @@
     }
     .card__title{
         margin: 0px 0px 15px;
+    }
+    .clients{
+        padding: 20px 0px 0px
+    }
+    .clients__title{
+        font-size: 36px;
+    }
+    .clients__title::after{
+        margin: 20px auto 45px;
+    }
+    .clients__row{
+        padding: 0 0 30px;
+    }
+    .portfolio__title{
+        font-size: 36px;
+    }
+    .portfolio__title::after{
+        margin: 20px auto 28px;
+    }
+    .services__text{
+        padding-bottom: 30px;
+    }
+    .services__card{
+        flex: 0 1 100%;
+    }
+    .testimonials__title{
+        font-size: 36px;
     }
 }
