@@ -521,6 +521,9 @@ html, body{
 .red{
     color: #db0000;
 }
+.contact__form fieldset{
+    border: none;
+}
 .form__inputs{
     display: flex;
     justify-content: space-between;
@@ -528,7 +531,7 @@ html, body{
 }
 .form__inputs p{
     width: 50%;
-    margin: 0px 14px 30px;
+    padding:0px 14px 30px;
 }
 .form__inputs input{
     width: 100%;

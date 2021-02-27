@@ -285,17 +285,19 @@
                     <div class="contact__title">contact us</div>
                     <div class="contact__body">
                         <div class="contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
-                        <div class="contact__form" method='post'>
-                            <form action="#", name="contactForm", method="post">
-                                <div class="form__inputs">
-                                    <p>Name<span class="red">*</span><input type="text" name='name' required></p>
-                                    <p>Email address<span class="red">*</span><input type="email" name='email' required></p>
-                                </div>
-                                <p>Message<span class="red">*</span></p>
-                                <textarea name="message"></textarea>
-                                <div class="form_button">
-                                    <input type="submit" name="send" value="SEND">
-                                </div>
+                        <div class="contact__form">
+                            <form action="#", name="contactForm">
+                                <fieldset>
+                                    <div class="form__inputs">
+                                        <p><label for="contact_name">Name<span class="red">*</span></label><input type="text" name='name' required id='contact_name'></p>
+                                        <p><label for="contact_email">Email address<span class="red">*</span></label><input type="email" name='email' required id='contact_email'></p>
+                                    </div>
+                                    <label>Message<span class="red">*</span></label>
+                                    <textarea name="message"></textarea>
+                                    <div class="form_button">
+                                        <input type="submit" name="send" value="SEND">
+                                    </div>
+                                </fieldset>
                             </form>
                         </div>
                     </div>
